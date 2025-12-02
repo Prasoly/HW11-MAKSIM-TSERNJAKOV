@@ -42,7 +42,7 @@ test('post order with correct data should receive code 200', async ({ request })
 
 test('Delete order with correct id', async ({ request }) => {
   const requestBody = OrderDTO.createOrderWithRandomData()
-    requestBody.id = 1;
+  requestBody.id = 9
 
   const responseCreate = await request.post(BASE_URL, {
     data: requestBody,
