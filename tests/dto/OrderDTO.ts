@@ -6,7 +6,7 @@ export class OrderDTO {
   readonly customerName: string
   readonly customerPhone: string
   readonly comment: string
-  readonly id: number
+  id: number
 
   private constructor(
     status: string,
