@@ -40,3 +40,4 @@ export class OrderDTO {
     expect.soft(order.customerName.length).toBeGreaterThan(0);
   }
 }
+
