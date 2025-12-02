@@ -10,10 +10,11 @@ export class LoginDTO {
   }
 
   static createLoginWithCorrectData(): LoginDTO {
-    return new LoginDTO(process.env.USERNAME || '', process.env.PASSWORD || '')
+    return new LoginDTO(process.env.USERNAME || 'mtsernjakov', process.env.PASSWORD || 'whe7s5qbYbfT2n')
   }
 
   static createLoginWithBrokenData(): LoginDTO {
     return new LoginDTO('', '')
   }
 }
+
