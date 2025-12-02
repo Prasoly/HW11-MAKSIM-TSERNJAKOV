@@ -1,11 +1,11 @@
 import { expect } from '@playwright/test'
 
 export class OrderDTO {
-  status: string
-  courierId: number
-  customerName: string
-  customerPhone: string
-  comment: string
+  readonly status: string
+  readonly courierId: number
+  readonly customerName: string
+  readonly customerPhone: string
+  readonly comment: string
   id: number
 
   private constructor(
