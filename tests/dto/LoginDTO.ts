@@ -5,6 +5,7 @@ export class LoginDTO {
   private constructor(username: string, password: string) {
     this.username = username
     this.password = password
+
   }
 
   static createLoginWithCorrectData(): LoginDTO {
