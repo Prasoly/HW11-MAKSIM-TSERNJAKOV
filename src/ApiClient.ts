@@ -12,6 +12,7 @@ export class ApiClient {
   request: APIRequestContext
   readonly jwt: string
 
+
   private constructor(request: APIRequestContext, jwt: string) {
     this.request = request
     this.jwt = jwt
